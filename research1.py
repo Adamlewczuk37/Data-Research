@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-input_data = pd.read_csv(r'/Users/adamlewczuk/Downloads/pd3PLT.csv')
+input_data = pd.read_csv(r'{insertdocument}.csv')
 input_data["time"] = input_data.iloc[:,[1]]
 
 num_graphs = 3
