@@ -9,7 +9,7 @@ from dash import dcc
 from dash.dependencies import Output, Input
 
 
-df = pd.read_csv(r'/Users/adamlewczuk/Downloads/pd3PLT.csv')
+df = pd.read_csv(r'x.csv')
 df.columns = df.columns.str.replace(' ','')
 df["time"] = df.iloc[:,[1]]
 
